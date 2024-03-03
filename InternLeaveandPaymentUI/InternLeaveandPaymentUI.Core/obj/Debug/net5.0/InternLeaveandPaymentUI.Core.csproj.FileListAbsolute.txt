@@ -1,0 +1,15 @@
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\obj\Debug\net5.0\InternLeaveandPaymentUI.Core.csproj.AssemblyReference.cache
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\obj\Debug\net5.0\InternLeaveandPaymentUI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\obj\Debug\net5.0\InternLeaveandPaymentUI.Core.AssemblyInfoInputs.cache
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\obj\Debug\net5.0\InternLeaveandPaymentUI.Core.AssemblyInfo.cs
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\obj\Debug\net5.0\InternLeaveandPaymentUI.Core.csproj.CoreCompileInputs.cache
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\bin\Debug\net5.0\InternLeaveandPaymentUI.Core.deps.json
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\bin\Debug\net5.0\InternLeaveandPaymentUI.Core.dll
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\bin\Debug\net5.0\ref\InternLeaveandPaymentUI.Core.dll
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\bin\Debug\net5.0\InternLeaveandPaymentUI.Core.pdb
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\bin\Debug\net5.0\InternLeaveandPaymentUI.Domain.dll
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\bin\Debug\net5.0\InternLeaveandPaymentUI.Domain.pdb
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\obj\Debug\net5.0\InternLeaveandPaymentUI.Core.csproj.CopyComplete
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\obj\Debug\net5.0\InternLeaveandPaymentUI.Core.dll
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\obj\Debug\net5.0\ref\InternLeaveandPaymentUI.Core.dll
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Core\obj\Debug\net5.0\InternLeaveandPaymentUI.Core.pdb

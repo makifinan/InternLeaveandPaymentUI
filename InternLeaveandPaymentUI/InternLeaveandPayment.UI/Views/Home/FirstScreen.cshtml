@@ -1,0 +1,22 @@
+﻿@{
+    //ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MEDAŞ</title>
+        <link href="~/css/FirstScreen/firstscreen.css" rel="stylesheet" />
+        <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <a asp-controller="Home" asp-action="InternLogin" class="btn btn-primary">Stajyer Girişi</a>
+            <a asp-controller="Home" asp-action="EmployeeLogin" class="btn btn-primary">Çalışan Girişi</a>
+        </div>
+    </body>
+    </html>
+

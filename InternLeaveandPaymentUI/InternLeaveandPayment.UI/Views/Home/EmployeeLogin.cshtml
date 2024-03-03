@@ -1,0 +1,33 @@
+﻿@model InternLeaveandPaymentUI.Domain.DTOs.Employee.EmployeeLoginDTO
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/Login/login.css" rel="stylesheet" />
+    <title>Giriş</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Personel Girişi</h1>
+        <form asp-controller="Home" asp-action="EmployeeLogin" method="post">
+            <input asp-for="Email" type="text" placeholder="Email" />
+            <span></span>
+            <input asp-for="Password" type="password" placeholder="Password" />
+            <span></span>
+            <div class="recover">
+                <a href="#">Şifremi unuttum</a>
+
+            </div>
+            <button class="btn btn-success">Giriş Yap</button>
+        </form>
+        <div class="member">
+            Üye değil misin ? <a>Kayıt Ol</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\bin\Debug\net5.0\InternLeaveandPaymentUI.Domain.deps.json
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\bin\Debug\net5.0\InternLeaveandPaymentUI.Domain.dll
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\bin\Debug\net5.0\ref\InternLeaveandPaymentUI.Domain.dll
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\bin\Debug\net5.0\InternLeaveandPaymentUI.Domain.pdb
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\obj\Debug\net5.0\InternLeaveandPaymentUI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\obj\Debug\net5.0\InternLeaveandPaymentUI.Domain.AssemblyInfoInputs.cache
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\obj\Debug\net5.0\InternLeaveandPaymentUI.Domain.AssemblyInfo.cs
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\obj\Debug\net5.0\InternLeaveandPaymentUI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\obj\Debug\net5.0\InternLeaveandPaymentUI.Domain.dll
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\obj\Debug\net5.0\ref\InternLeaveandPaymentUI.Domain.dll
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\obj\Debug\net5.0\InternLeaveandPaymentUI.Domain.pdb
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPaymentUI.Domain\obj\Debug\net5.0\InternLeaveandPaymentUI.Domain.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WrpWCh5uHZTSZv8HAK2MdPkPezSqL6Lf/LH/5FSgNgrK4w9i7UVvqmeR7j0vIGmyEYWA4rBjEzDW962rxxQXaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Akif\\Desktop\\InternLeaveandPayment\\InternLeaveandPaymentUI\\InternLeaveandPaymentUI\\InternLeaveandPaymentUI.Core\\InternLeaveandPaymentUI.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Akif\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
