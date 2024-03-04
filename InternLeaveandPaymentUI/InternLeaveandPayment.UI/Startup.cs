@@ -37,6 +37,10 @@ namespace InternLeaveandPayment.UI
             { conf.BaseAddress = new Uri(Configuration["MyBaseUri"]); });
             services.AddHttpClient<EmployeeAPIService>(conf =>
             { conf.BaseAddress = new Uri(Configuration["MyBaseUri"]); });
+            services.AddHttpClient<InternLeaveAPIService>(conf =>
+            { conf.BaseAddress = new Uri(Configuration["MyBaseUri"]); });
+            services.AddHttpClient<DepartmentAPIService>(conf =>
+            { conf.BaseAddress = new Uri(Configuration["MyBaseUri"]); });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

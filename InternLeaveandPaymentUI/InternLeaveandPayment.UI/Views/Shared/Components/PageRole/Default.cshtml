@@ -1,0 +1,39 @@
+﻿@model  string
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Default</title>
+</head>
+<body>
+    @if (Model == "Stajyer")
+    {
+        <a asp-controller="Home" asp-action="Index" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <i class="fas fa-tachometer-alt me-2"></i>Ana Sayfa
+        </a>
+        <a asp-controller="InternLeave" asp-action="AddInternLeave" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <i class="fas fa-tachometer-alt me-2"></i>İzin Talebi Oluştur
+        </a>
+    }
+    else
+    {
+        <a asp-controller="Home" asp-action="Index" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <i class="fas fa-tachometer-alt me-2"></i>Ana Sayfa
+        </a>
+        <a asp-controller="Intern" asp-action="InternList" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <i class="fas fa-tachometer-alt me-2"></i>Stajyer Listesi
+        </a>
+        <a asp-controller="InternLeave" asp-action="AddInternLeave" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <i class="fas fa-tachometer-alt me-2"></i>İzin Talebi Oluştur
+        </a>
+        <a asp-controller="" asp-action="" class="list-group-item list-group-item-action bg-transparent second-text active">
+            <i class="fas fa-tachometer-alt me-2"></i>Bekleyen Talepler
+        </a>
+    }
+</body>
+</html>

@@ -53,6 +53,8 @@ namespace InternLeaveandPayment.UI.Controllers
             HttpContext.Session.SetString("UserName", result.Datas.InternName.ToString());
             HttpContext.Session.SetString("UserSurname", result.Datas.InternSurname.ToString());
             HttpContext.Session.SetString("Department", "Stajyer");
+            HttpContext.Session.SetString("ManagerID", result.Datas.InternManagerId.ToString());
+            HttpContext.Session.SetString("DepartmentID", result.Datas.InternDepartmentId.ToString());
             
             
             return RedirectToAction("Index", "Home");

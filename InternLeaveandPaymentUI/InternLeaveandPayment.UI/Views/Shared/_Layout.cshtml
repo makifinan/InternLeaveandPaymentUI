@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="styles.css" />
     <link href="~/css/Dashboard/styles.css" rel="stylesheet" />
+    <link href="~/css/Intern/addintern.css" rel="stylesheet" />
     <title>Stajyer İzin ve Puantaj Sistemi</title>
 </head>
 
@@ -22,8 +23,8 @@
             </div>
             <div class="list-group list-group-flush my-3">
 
+                @await Component.InvokeAsync("PageRole")
 
-                
                 <a asp-controller="Auth" asp-action="Logout" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold">
                     <i class="fas fa-power-off me-2"></i>Logout
                 </a>

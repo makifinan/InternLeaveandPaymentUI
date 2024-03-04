@@ -122,3 +122,7 @@ C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeavea
 C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPayment.UI\bin\Debug\net5.0\InternLeaveandPaymentUI.Core.pdb
 C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPayment.UI\bin\Debug\net5.0\InternLeaveandPaymentUI.Domain.pdb
 C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPayment.UI\obj\Debug\net5.0\Razor\Views\Shared\Components\UserInformation\Default.cshtml.g.cs
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPayment.UI\obj\Debug\net5.0\Razor\Views\Shared\Components\PageRole\Default.cshtml.g.cs
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPayment.UI\obj\Debug\net5.0\Razor\Views\InternLeave\AddInternLeave.cshtml.g.cs
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPayment.UI\obj\Debug\net5.0\Razor\Views\Intern\InternList.cshtml.g.cs
+C:\Users\Akif\Desktop\InternLeaveandPayment\InternLeaveandPaymentUI\InternLeaveandPaymentUI\InternLeaveandPayment.UI\obj\Debug\net5.0\Razor\Views\Intern\AddIntern.cshtml.g.cs

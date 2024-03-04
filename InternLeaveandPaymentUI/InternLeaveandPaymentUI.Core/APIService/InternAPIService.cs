@@ -30,5 +30,27 @@ namespace InternLeaveandPaymentUI.Core.APIService
             }
             return null;
         }
+
+        public async Task<GeneralReturnType<List<InternListDTO>>> GetAllIntern()
+        {
+            var result = await _httpClient.GetAsync("GetAllIntern");
+            if (result.IsSuccessStatusCode)
+            {
+                return JsonConvert.DeserializeObject<GeneralReturnType<List<InternListDTO>>>(await result.Content.ReadAsStringAsync());
+            }
+            return null;
+        }
+
+        public async Task<GeneralReturnType<InternAddDTO>> AddIntern(InternAddDTO internAddDTO)
+        {
+            var content = new StringContent(JsonConvert.SerializeObject(internAddDTO));
+            content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+            var result = await _httpClient.PostAsync("AddIntern",content);
+            if (result.IsSuccessStatusCode)
+            {
+                return JsonConvert.DeserializeObject<GeneralReturnType<InternAddDTO>>(await result.Content.ReadAsStringAsync());
+            }
+            return null;
+        }
     }
 }

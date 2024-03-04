@@ -1,0 +1,43 @@
+﻿@model List<InternLeaveandPaymentUI.Domain.DTOs.Intern.InternListDTO>
+@{
+    ViewData["Title"] = "InternList";
+}
+
+<h1>Stajyer Listesi</h1>
+<div>
+    <div>
+        <a asp-controller="Intern" asp-action="AddIntern" class="btn btn-dark">Yeni Kayıt</a>
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Adı-Soyadı</th>
+                    <th scope="col">Şirketi</th>
+                    <th scope="col">Okulu</th>
+                    <th scope="col">Okul Bölümü</th>
+                    <th scope="col">Sorumlu Kişi</th>
+                    <th scope="col">Departman/İşletme</th>
+                    <th scope="col">Staj Günleri</th>
+                    <th scope="col">Detay</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.InternName  @item.InternSurname</td>
+                        <td>@item.CompanyName</td>
+                        <td>@item.InternSchool</td>
+                        <td>@item.InternSchoolDepartment</td>
+                        <td>@item.EmployeeName  @item.EmployeeSurname</td>
+                        <td>@item.DepartmentName</td>
+                        <td></td>
+                        <td><a  class="btn btn-primary">Detay</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>

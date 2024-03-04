@@ -30,5 +30,20 @@ namespace InternLeaveandPaymentUI.Core.APIService
             }
             return null;
         }
+
+        public async Task<GeneralReturnType<EmployeeDTO>> GetByIDEmployee(int id)
+        {
+            var requestData = new { id = id };
+            var content = new StringContent(JsonConvert.SerializeObject(requestData));
+            content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+            var result = await _httpClient.PostAsync($"GetByIDEmployee/{id}", content);
+            if (result.IsSuccessStatusCode)
+            {
+                return JsonConvert.DeserializeObject<GeneralReturnType<EmployeeDTO>>(await result.Content.ReadAsStringAsync());
+            }
+            return null;
+        }
+
+
     }
 }
