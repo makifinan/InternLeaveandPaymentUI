@@ -5,6 +5,23 @@
 
 <!DOCTYPE html>
     <html lang="en">
+    <style>
+        .kap {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 75vh; /* Sayfanın %75'ini kaplaması için */
+            color: #2596be;
+        }
+        .kap p{
+            font-size:2rem;
+        }
+
+        .container {
+            margin-top: 20px; /* Butonların üstünde 20 piksel boşluk bırakmak için */
+        }
+    </style>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +30,16 @@
         <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
-        <div class="container">
-            <a asp-controller="Home" asp-action="InternLogin" class="btn btn-primary">Stajyer Girişi</a>
-            <a asp-controller="Home" asp-action="EmployeeLogin" class="btn btn-primary">Çalışan Girişi</a>
+        <div class="kap">
+            <div class="logo">
+                <p class="logo">MEDAŞ</p>
+            </div>
+            <div class="container">
+                <a asp-controller="Home" asp-action="InternLogin" class="btn btn-primary">Stajyer Girişi</a>
+                <a asp-controller="Home" asp-action="EmployeeLogin" class="btn btn-primary">Çalışan Girişi</a>
+            </div>
         </div>
+        
     </body>
     </html>
 

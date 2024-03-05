@@ -11,21 +11,25 @@
     <link rel="stylesheet" href="styles.css" />
     <link href="~/css/Dashboard/styles.css" rel="stylesheet" />
     <link href="~/css/Intern/addintern.css" rel="stylesheet" />
+    
     <title>Stajyer İzin ve Puantaj Sistemi</title>
 </head>
 
 <body>
     <div class="d-flex" id="wrapper">
         <!-- Sidebar -->
-        <div class="bg-white" id="sidebar-wrapper">
+        <div class="bg-dark" id="sidebar-wrapper">
             <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
-                <i class="fas fa-user-secret me-2"></i>Stajyer İzin ve Puantaj Sistemi
+                MEDAŞ
+            </div>
+            <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
+                Stajyer İzin ve Puantaj Sistemi
             </div>
             <div class="list-group list-group-flush my-3">
 
                 @await Component.InvokeAsync("PageRole")
 
-                <a asp-controller="Auth" asp-action="Logout" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold">
+                <a class="list-group-item list-group-item-action bg-transparent text-danger fw-bold">
                     <i class="fas fa-power-off me-2"></i>Logout
                 </a>
             </div>
@@ -36,7 +40,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
-                    <h2 class="fs-2 m-0">Dashboard</h2>
+                    <h2 class="fs-2 m-0">Hoşgeldin</h2>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

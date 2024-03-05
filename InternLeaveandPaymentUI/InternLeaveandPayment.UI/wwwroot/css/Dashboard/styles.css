@@ -1,6 +1,6 @@
 ﻿:root {
     --main-bg-color: #009d63;
-    --main-text-color: #009d63;
+    --main-text-color: #2596be;
     --second-text-color: #bbbec5;
     --second-bg-color: #c1efde;
 }
@@ -28,6 +28,7 @@
 #wrapper {
     overflow-x: hidden;
     background-image: linear-gradient( to right, #baf3d7, #c2f5de, #cbf7e4, #d4f8ea, #ddfaef );
+    background-color:#ffffff;
 }
 
 #sidebar-wrapper {
@@ -50,6 +51,7 @@
 
 #page-content-wrapper {
     min-width: 100vw;
+    background-color: #eeeee4;
 }
 
 #wrapper.toggled #sidebar-wrapper {

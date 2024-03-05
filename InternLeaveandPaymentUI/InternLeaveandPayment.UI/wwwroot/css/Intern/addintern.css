@@ -3,6 +3,11 @@
     flex-direction:row;
     justify-content: space-around;
 }
+.flexc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .altalta{
     display:flex;
     flex-direction:column;
@@ -10,4 +15,16 @@
 .yanyana {
     display:flex;
     flex-direction:row;
+}
+.kap {
+    width:70%;
+    height:70%;
+    background-color:#ffffff;
+    border-radius:20px;
+}
+.margin{
+    margin:10px;
+}
+.margin-center{
+    margin:20px auto;
 }

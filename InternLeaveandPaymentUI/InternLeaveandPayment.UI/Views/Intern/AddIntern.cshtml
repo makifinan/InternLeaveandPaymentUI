@@ -3,6 +3,13 @@
     ViewData["Title"] = "AddIntern";
 }
 <link href="../wwwroot/css/Intern/addintern.css" rel="stylesheet" />
+<style>
+    /* Butonu sağ üste taşı */
+    .btn-container {
+        display:flex;
+        justify-content:end;
+    }
+</style>
 <h1>Stajyer Kaydı - Yeni</h1>
 <div>
     <form action="/" method="post">
@@ -82,6 +89,12 @@
                     </select>
                 </div>
             </div>
+            
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-dark">
+                KAYDET
+            </button>
         </div>
     </form>
 </div>

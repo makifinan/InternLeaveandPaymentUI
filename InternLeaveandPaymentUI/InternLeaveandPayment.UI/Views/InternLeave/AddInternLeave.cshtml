@@ -2,44 +2,83 @@
 @{
     ViewData["Title"] = "AddInternLeave";
 }
+<link href="~/css/Intern/addintern.css" rel="stylesheet" />
 
 <div>
-    <div>
-        <p>İzin Formu</p>
-    </div>
-    <div>
-        <div><p>İzin Türü</p></div>
-        <div>
-            <div>
-                <input type="checkbox"  name="Checkbox">
-                <label for="Checkbox">Özel İzin</label>
+    <form asp-controller="InternLeave"  asp-action="AddInternLeave" method="post">
+        <div class="kap flexc padding">
+            <div class="margin">
+                <p>İzin Formu</p>
             </div>
-            <div>
-                <input type="checkbox"  name="ExamCheckbox">
-                <label for="ExamCheckbox">Sınav İzni</label>
+            <div class="margin">
+                <div><p>İzin Türü</p></div>
+                <div class="alalta">
+                    <div>
+                        <input type="checkbox" value="1" name="Checkbox">
+                        <label for="Checkbox">Özel İzin</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="2" name="ExamCheckbox" >
+                        <label for="ExamCheckbox">Sınav İzni</label>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <input type="text"  name="NameSurname">
-            <label for="Checkbox">Adı-Soyadı</label>
-        </div>
-        <div>
-            <div>
-                <label for="departman">Departman/İşletme</label>
-                <input type="text" name="departman">
+            <div class="margin">
+                <div class="altalta">
+                    <label for="Checkbox">Adı-Soyadı</label>
+                    <input type="text" name="NameSurname" value="@Model.InternName @Model.InternSurname">
+                </div>
+                <div class="yanyana">
+                    <div class="altalta">
+                        <label for="departman">Departman/İşletme</label>
+                        <input type="text" name="departman" value="@Model.DepartmentName">
+                    </div>
+                    <div class="altalta">
+                        <label for="checkperson">Onaya Gidecek Kişi:</label>
+                        <input type="text" name="checkperson" value="@Model.EmployeeName @Model.EmployeeSurname">
+                    </div>
+                </div>
             </div>
-            <div>
-                <label for="check">Onaya Gidecek Kişi:</label>
-                <input type="text" name="check">
-            </div>
-        </div>
-    </div>
-    <div>
-        
-    </div>
+            <div class="margin">
+                <div class="altalta">
+                    <label>Çıkması Gereken Tarih/Saat</label>
+                    <div>
+                        <input type="datetime-local" name="bdate" value="" />
+                        <input type="time" name="btime" value="" />
+                    </div>
+                </div>
+                <div class="altalta">
+                    <div>
+                        <label>Dönmesi Gereken Tarih/Saat</label>
+                        <div>
+                            <input type="datetime-local" name="edate" value=""  />
+                            <input type="time" name="etime" value="" />
+                        </div>
 
-
+                    </div>
+                </div>
+            </div>
+            <div class="yanyana margin">
+                <div>
+                    <input type="text" name="name" value="" />
+                </div>
+                <div class="altalta">
+                    <div>
+                        <label>Toplam Gün</label>
+                        <input type="text" name="name" value="" />
+                    </div>
+                    <div>
+                        <label>Toplam Saat</label>
+                        <input type="text" name="name" value="" />
+                    </div>
+                </div>
+            </div>
+            <div class="margin margin-center">
+                <button class="btn btn-dark">
+                    Onaya Gönder
+                </button>
+            </div>
+        </div>
+    </form>
 </div>
 

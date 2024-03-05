@@ -42,7 +42,9 @@ namespace InternLeaveandPayment.UI.Controllers
                 DepartmentId = Convert.ToInt32(HttpContext.Session.GetString("DepartmentID")),
                 ResponsibleID = Convert.ToInt32(HttpContext.Session.GetString("ManagerID")),
                 EmployeeName = employeeName,
-                EmployeeSurname = employeeSurname
+                EmployeeSurname = employeeSurname,
+                InternName= HttpContext.Session.GetString("UserName"),
+                InternSurname= HttpContext.Session.GetString("UserSurname")
             };
             return View(internLeaveVM);
         }
